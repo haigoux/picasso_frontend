@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'rubik';
+    src: url('@/assets/rubik.ttf') format('truetype');
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #182025;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
